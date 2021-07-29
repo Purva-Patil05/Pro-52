@@ -1,0 +1,66 @@
+h1{
+    color:rgb(69, 58, 226);
+    margin-left:20px ;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    background-color:rgb(8, 5, 0);
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    color: #FFFFFF;
+    
+ 
+}
+.Grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:rgb(173, 130, 73);
+    border: 5px solid #000000;
+    border-radius: 20px;
+
+
+}
+h2,p{
+    text-align: center;
+   
+}
+
+.Description{
+  background-color:rgb(35, 129, 146);
+
+}
+
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgb(5, 2, 2);
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+    color:navy;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.item:hover img{
+    opacity: 0.3;
+}
+
